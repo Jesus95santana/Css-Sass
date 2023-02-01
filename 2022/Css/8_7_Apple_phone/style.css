@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+  height: 70em;
+}
+nav {
+  /*border: 1px solid yellow;*/
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+.logo{
+  position: absolute;
+  width: 125px;
+  height: 100px;
+  /*border: 1px solid red;*/
+}
+.apple {
+  /*border: 1px solid green;*/
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.logo h2{
+  /*border: 1px solid blue;*/
+  color: white;
+  position: relative;
+  text-align: center;
+}
+nav ul {
+  position: relative;
+  display: inline;
+  /*border: 1px solid red;*/
+  float: right;
+  margin-right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+nav ul li {
+  background-color: grey;
+  border-radius: 5px;
+  margin: 0 5px;
+  /*border: 1px solid blue;*/
+  padding: 5px 10px;
+  display: inline-block;
+  color: white;
+}
+main {
+  padding-top: 100px;
+}
+article.one {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+article.one h1 {
+  text-align: center;
+}
+article.one img {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+article.one p {
+  text-align: center;
+}
+article.two {
+  border: 1px solid red;
+  margin-top: 50px;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+article.two h1 {
+  text-align: center;
+}
+article.two img {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+article.two p {
+  text-align: center;
+}

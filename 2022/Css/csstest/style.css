@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	border: 1px solid yellow;
+	height: 100%;
+}
+body {
+	position: relative;
+	border: 5px solid #000;
+	height: 100%;
+}
+.app2 {
+	position: relative;
+	border: 1px solid #000;
+	height: 400px;
+	width: 400px;
+}
+.app {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}

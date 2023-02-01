@@ -1,0 +1,58 @@
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  20% {
+    left: -50%;
+  }
+  30% {
+    left: -50%;
+  }
+  40% {
+    left: -50%;
+  }
+  50% {
+    left: -100%;
+  }
+  60% {
+    left: -100%;
+  }
+  70% {
+    left: -150%;
+  }
+  80% {
+    left: -150%;
+  }
+  90% {
+    left: -150%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+.App {
+  border: 1px solid blue;
+  position: relative;
+  width: 660px;
+}
+.App .slider {
+  overflow: hidden;
+}
+.App .slider figure {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+.App .slider figure img {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */

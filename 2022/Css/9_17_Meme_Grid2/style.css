@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "header header"
+                       "content1 content1"
+                       "content2 content3"
+                       "footer footer";
+  background-color: grey;
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+  background-color: green;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  color: white;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  padding-right: 1rem;
+  list-style-type: none;
+  border: 1px solid red;
+}
+header li {
+  color: white;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.box1 {
+  grid-area: content1;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 p {
+  width: 50rem;
+  text-align: center;
+}
+.box2 {
+  grid-area: content2;
+  background-color: darkblue;
+  padding: 4rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "meme1 meme1 meme2 meme2"
+                      ". meme3 meme3 .";
+
+}
+.box2 .meme1 {
+  grid-area: meme1;
+  border: 1rem solid purple;
+}
+.meme img, .meme img, .meme img {
+
+}
+.box2 .meme2 {
+  grid-area: meme2;
+  border: 1rem solid pink;
+}
+.box2 .meme3 {
+  grid-area: meme3;
+  border: 1rem solid yellow;
+}
+
+
+
+.box3 {
+  grid-area: content3;
+  background-color: indigo;
+}
+footer {
+  grid-area: footer;
+  background-color: black;
+}
+footer li {
+  color: white;
+}

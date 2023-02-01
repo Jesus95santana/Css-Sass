@@ -1,0 +1,33 @@
+//Mixins
+@mixin defaultDisplay($color: green) {
+  background-color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin text-hover($color) {
+  &:hover {
+    color: $color;
+  }
+}
+
+//
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  @include defaultDisplay(red);
+}
+.word {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  @include text-hover(red);
+}

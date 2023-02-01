@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100vh;
+}
+
+.container div {
+  border: 1px solid red;
+}
+
+.one {
+  background-color: red;
+}
+.two {
+  background-color: orange;
+}
+.three {
+  background-color: yellow;
+}
+.four {
+  background-color: green;
+}
+.five {
+  background-color: blue;
+}
+.six {
+  background-color: indigo;
+}
+.seven {
+  background-color: violet;
+}
+.eight {
+  background-color: red;
+}
+.nine {
+  background-color: orange;
+}
+.ten {
+  background-color: yellow;
+}
+.eleven {
+  background-color: green;
+}
+.twelve {
+  background-color: indigo;
+}
