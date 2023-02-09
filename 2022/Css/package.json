@@ -1,0 +1,13 @@
+{
+	"name": "root",
+	"version": "1.0.0",
+	"description": "root package",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"updateCheck": " (cd 11_4_Grids && npm outdated); (cd 10_6_Pup_spa && npm outdated); (cd 9_18_Meme_Grid && npm outdated); (cd 11_14_Flex_Tea && npm outdated); (cd 11_13_Links_Buttons && npm outdated); (cd 3_10_Transitions && npm outdated); (cd 9_17_Meme_Grid2 && npm outdated); (cd csstest && npm outdated); (cd 4_12_slider && npm outdated); (cd 8_7_Apple_phone && npm outdated); (cd 11_4_Positioning && npm outdated); (cd 4_20_module_mobile && npm outdated); (cd 9_16_RainbowStripes && npm outdated); (cd 11_12_FlexTodo && npm outdated); (cd 11_15_Grid_Flex && npm outdated);",
+		"updateAll": " (cd 11_4_Grids && npm update); (cd 10_6_Pup_spa && npm update); (cd 9_18_Meme_Grid && npm update); (cd 11_14_Flex_Tea && npm update); (cd 11_13_Links_Buttons && npm update); (cd 3_10_Transitions && npm update); (cd 9_17_Meme_Grid2 && npm update); (cd csstest && npm update); (cd 4_12_slider && npm update); (cd 8_7_Apple_phone && npm update); (cd 11_4_Positioning && npm update); (cd 4_20_module_mobile && npm update); (cd 9_16_RainbowStripes && npm update); (cd 11_12_FlexTodo && npm update); (cd 11_15_Grid_Flex && npm update);"
+	},
+	"author": "",
+	"license": "ISC"
+}
